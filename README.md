@@ -18,3 +18,14 @@ Contribution
 ![image](https://user-images.githubusercontent.com/90980017/192562368-a295858c-a697-419a-b0cb-eb17a4b76228.png)
 About us
 ![image](https://user-images.githubusercontent.com/90980017/192562430-a3b7a21e-5741-4c2f-9125-89e765fc3fea.png)
+There are currently 10 profiles of alumnis...
+1. ![image](https://user-images.githubusercontent.com/90980017/192562831-52e969ef-eedf-4fc8-9928-b1e47c7382f4.png)
+2. ![image](https://user-images.githubusercontent.com/90980017/192562886-608589ca-fffe-4e11-9038-41470fc50104.png)
+3. ![image](https://user-images.githubusercontent.com/90980017/192562926-6a4e4037-0e23-4321-b402-320963c86812.png)
+4. ![image](https://user-images.githubusercontent.com/90980017/192562949-813fbab2-2c12-427e-9bf3-55f2a05ea676.png)
+5. ![image](https://user-images.githubusercontent.com/90980017/192562973-47424d79-f043-483f-a2cc-95795242d2e9.png)
+6. ![image](https://user-images.githubusercontent.com/90980017/192563025-c4b12d3b-77ab-4cb3-ba46-24d795e7bb21.png)
+7. ![image](https://user-images.githubusercontent.com/90980017/192563054-7eb9b6b0-2542-4bff-9a99-a3fe9b888b22.png)
+8. ![image](https://user-images.githubusercontent.com/90980017/192563098-a4b087fd-743c-4460-a278-f8975851c0b6.png)
+9. ![image](https://user-images.githubusercontent.com/90980017/192563141-60a6a6ac-7d4f-4739-9ad2-84183537c48a.png)
+10. ![image](https://user-images.githubusercontent.com/90980017/192563171-03cf62c3-ab56-4c10-8678-7bad48fb17a3.png)
