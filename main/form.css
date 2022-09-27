@@ -1,0 +1,167 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
+}
+
+    .wrapper .left {
+        width: 35%;
+        background: linear-gradient(to right,#3749A0,#00F0FF);
+        padding: 30px 25px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        text-align: left;
+        color: #fff;
+    }
+
+        .wrapper .left img {
+            border-radius: 40px;
+            margin-bottom: 10px;
+        }
+
+        .wrapper .left h4 {
+            margin-bottom: 10px;
+            font-size: 25px;
+            border-bottom: 1px solid white;
+        }
+
+        .wrapper .left ul {
+            font-size: 18px;
+            line-height: 30px;
+        }
+
+            .wrapper .left ul li {
+                border-bottom: 1px solid #e0e0e0;
+            }
+        
+
+        .wrapper .left .p h4{
+            font-size: 16px;
+            line-height: 2px;
+        }
+
+    .wrapper .right {
+        width: 65%;
+        background: #E0FEFF;
+        padding: 30px 25px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+        .wrapper .right .info,
+        .wrapper .right .projects {
+            margin-bottom: 25px;
+        }
+
+            .wrapper .right .info h3,
+            .wrapper .right .projects h3 {
+                margin-bottom: 15px;
+                padding-bottom: 5px;
+                border-bottom: 1px solid #e0e0e0;
+                color: #353c4e;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+                font-size: 25px;
+            }
+
+        .wrapper .right .info_data,
+        .wrapper .right .projects_data {
+            display: flex;
+            justify-content: space-between;
+        }
+
+            .wrapper .right .info_data .data,
+            .wrapper .right .projects_data .data {
+                width: 100%;
+            }
+
+                .wrapper .right .info_data .data h4,
+                .wrapper .right .projects_data .data h4 {
+                    color: #353c4e;
+                    font-size: 21px;
+                    margin-bottom: 5px;
+                }
+
+                .wrapper .right .info_data .data p,
+                .wrapper .right .projects_data .data p {
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    color: #919aa3;
+                }
+
+            .wrapper .right .info_data .data_left h4,
+            .wrapper .right .data_left h4 {
+                color: #353c4e;
+                margin-bottom: 5px;
+                display:flex;
+                justify-content:flex-end;
+                align-items: flex-end;
+            }
+
+            .wrapper .right .info_data .data_left h4,
+            .wrapper .right .data_left p {
+                font-size: 15px;
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-end;
+            }
+
+
+    .wrapper .social_media ul {
+        display: flex;
+    }
+
+        .wrapper .social_media ul li {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(to right,#01a9ac,#01dbdf);
+            margin-right: 10px;
+            border-radius: 5px;
+            text-align: center;
+            line-height: 50px;
+            bottom: 50px;
+            
+        }
+
+            .wrapper .social_media ul li a {
+                color: #fff;
+                display: block;
+                font-size: 20px;
+                
+            }
+
+
+/*updatebut*/
+.button {
+    background-color: white;
+    border: none;
+    color: #121424;
+    padding: 10px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
