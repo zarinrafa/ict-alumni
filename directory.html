@@ -1,0 +1,581 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Alumni</title>
+    <link rel="stylesheet" href="dir.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    />
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- scroll to top starts  -->
+    <div class="scroll">
+      <button id="btnScrollToTop">
+        <i class="material-icons">arrow_upward</i>
+      </button>
+    </div>
+
+    <!-- scroll ends -->
+    <!-- header starts-->
+    <header>
+      <div class="top">
+        <div class="container1">
+          <div class="topi">
+            <ul>
+              <li><a href="">Contact</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="reg.html">Register</a></li>
+              <input type="text" placeholder="Search.." />
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="green"></div>
+
+      <div class="top2">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/logo.png" />
+          </a>
+        </div>
+        <div class="container">
+          <div class="navbar">
+            <div class="veg"><a href="">ICT ALUMNI ASSOCIATION</a></div>
+            <div class="menu">
+              <ul>
+                <li><a href="directory.html" target="_blank">Alumni</a></li>
+                <li><a href="notice.html">Notice</a></li>
+                <li><a href="news.html">News and events</a></li>
+                <li><a href="job.html">Job Opportunities</a></li>
+                <li><a href="blood.html">Blood</a></li>
+                <li><a href="about.us.html">About Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="alumni">
+      <p>THE ALUMNI DATABASE</p>
+    </div>
+
+    <div class="container">
+      <div class="dropdown">
+        <button
+          class="btn btn-primary dropdown-toggle"
+          type="button"
+          data-toggle="dropdown"
+        >
+          Batch
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#">ICT-01</a></li>
+          <li><a href="#">ICT-02</a></li>
+          <li><a href="#">ICT-03</a></li>
+          <li><a href="#">ICT-04</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <button
+          class="btn btn-primary dropdown-toggle"
+          type="button"
+          data-toggle="dropdown"
+        >
+          Blood Group
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#">A+</a></li>
+          <li><a href="#">B+</a></li>
+          <li><a href="#">A-</a></li>
+          <li><a href="#">B-</a></li>
+          <li><a href="#">AB+</a></li>
+          <li><a href="#">AB-</a></li>
+          <li><a href="#">O-</a></li>
+          <li><a href="#">O+</a></li>
+        </ul>
+      </div>
+
+      <div class="main-search-input-wrap">
+        <div class="main-search-input fl-wrap">
+          <div class="main-search-input-item">
+            <input type="text" value="" placeholder="Search" />
+          </div>
+
+          <button class="main-search-button">Search</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <div class="directory">
+      <table class="dir">
+        <thead>
+          <tr>
+            <th>NAME</th>
+            <th>BATCH</th>
+            <th>YEAR OF GRADUATION</th>
+
+            <th>OCCUPATION</th>
+            <th>BLOOD GROUP</th>
+            <th>CONTACT INFORMATION</th>
+          </tr>
+        </thead>
+        <tbody class="alumniBody">
+          <!-- <tr>
+            <td>
+              <a href="proj.Nabilah.html" target="_blank"
+                >Nabilah Binte Khalid</a
+              >
+            </td>
+            <td>ICT-02</td>
+            <td>2020</td>
+
+            <td>Analyst</td>
+            <td>A+</td>
+            <td>01764329797</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Raisa.html" target="_blank">Raisa Tahsin Taspia</a>
+            </td>
+            <td>ICT-04</td>
+            <td>2021</td>
+
+            <td>Student</td>
+            <td>A+</td>
+            <td>01791557029</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Mahfuz.html" target="_blank">Md. Mahfuz Ridy</a>
+            </td>
+            <td>ICT-01</td>
+            <td>2019</td>
+
+            <td>Senior Officer(Assistant Network Engineer)</td>
+            <td>B+</td>
+            <td>01681242644</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Maliha.html" target="_blank">Maliha Amatullah</a>
+            </td>
+            <td>ICT-04</td>
+            <td>2022</td>
+
+            <td>Baker</td>
+            <td>O+</td>
+            <td>01736247636</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Fairooz.html" target="_blank"
+                >Fairooz Ahsan Nawar</a
+              >
+            </td>
+            <td>ICT-04</td>
+            <td>2022</td>
+
+            <td>Student</td>
+            <td>B+</td>
+            <td>01739113318</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Shahrin.html" target="_blank">Shahrin Shahpar</a>
+            </td>
+            <td>ICT-03</td>
+            <td>2021</td>
+
+            <td>Student</td>
+            <td>A+</td>
+            <td>14792494623</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Zannatul.html" target="_blank"
+                >Zannatul Ferdous Tuuny</a
+              >
+            </td>
+            <td>ICT-04</td>
+            <td>2022</td>
+
+            <td>IT Recuiter</td>
+            <td>AB+</td>
+            <td>01521443809</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Maleeha.html" target="_blank">Maleeha Sheikh</a>
+            </td>
+            <td>ICT-03</td>
+            <td>2021</td>
+
+            <td>Job Holder</td>
+            <td>O+</td>
+            <td>01914841641</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Ashraful.html" target="_blank"
+                >Ashraful Haider Chowdhury</a
+              >
+            </td>
+            <td>ICT-01</td>
+            <td>2019</td>
+
+            <td>Lecturer</td>
+            <td>O+</td>
+            <td>01521202217</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="proj.Mueed.html" target="_blank">Abdullah Al Mueed</a>
+            </td>
+            <td>ICT-03</td>
+            <td>2020</td>
+
+            <td>Key Account Manager</td>
+            <td>O+</td>
+            <td>01674323259</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Nabilah.html" target="_blank"
+                >Nabilah Binte Khalid</a
+              >
+            </td>
+            <td>ICT-02</td>
+            <td>2020</td>
+
+            <td>Analyst</td>
+            <td>A+</td>
+            <td>01764329797</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Raisa.html" target="_blank">Raisa Tahsin Taspia</a>
+            </td>
+            <td>ICT-04</td>
+            <td>2021</td>
+
+            <td>Student</td>
+            <td>A+</td>
+            <td>01791557029</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Mahfuz.html" target="_blank">Md. Mahfuz Ridy</a>
+            </td>
+            <td>ICT-01</td>
+            <td>2019</td>
+
+            <td>Senior Officer(Assistant Network Engineer)</td>
+            <td>B+</td>
+            <td>01681242644</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Maliha.html" target="_blank">Maliha Amatullah</a>
+            </td>
+            <td>ICT-04</td>
+            <td>2022</td>
+
+            <td>Baker</td>
+            <td>O+</td>
+            <td>01736247636</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Fairooz.html" target="_blank"
+                >Fairooz Ahsan Nawar</a
+              >
+            </td>
+            <td>ICT-04</td>
+            <td>2022</td>
+
+            <td>Student</td>
+            <td>B+</td>
+            <td>01739113318</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Shahrin.html" target="_blank">Shahrin Shahpar</a>
+            </td>
+            <td>ICT-03</td>
+            <td>2021</td>
+
+            <td>Student</td>
+            <td>A+</td>
+            <td>14792494623</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Zannatul.html" target="_blank"
+                >Zannatul Ferdous Tuuny</a
+              >
+            </td>
+            <td>ICT-04</td>
+            <td>2022</td>
+
+            <td>IT Recuiter</td>
+            <td>AB+</td>
+            <td>01521443809</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Maleeha.html" target="_blank">Maleeha Sheikh</a>
+            </td>
+            <td>ICT-03</td>
+            <td>2021</td>
+
+            <td>Job Holder</td>
+            <td>O+</td>
+            <td>01914841641</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Ashraful.html" target="_blank"
+                >Ashraful Haider Chowdhury</a
+              >
+            </td>
+            <td>ICT-01</td>
+            <td>2019</td>
+
+            <td>Lecturer</td>
+            <td>O+</td>
+            <td>01521202217</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="proj.Mueed.html" target="_blank">Abdullah Al Mueed</a>
+            </td>
+            <td>ICT-03</td>
+            <td>2020</td>
+
+            <td>Key Account Manager</td>
+            <td>O+</td>
+            <td>01674323259</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Nabilah.html" target="_blank"
+                >Nabilah Binte Khalid</a
+              >
+            </td>
+            <td>ICT-02</td>
+            <td>2020</td>
+
+            <td>Analyst</td>
+            <td>A+</td>
+            <td>01764329797</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Raisa.html" target="_blank">Raisa Tahsin Taspia</a>
+            </td>
+            <td>ICT-04</td>
+            <td>2021</td>
+
+            <td>Student</td>
+            <td>A+</td>
+            <td>01791557029</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Mahfuz.html" target="_blank">Md. Mahfuz Ridy</a>
+            </td>
+            <td>ICT-01</td>
+            <td>2019</td>
+
+            <td>Senior Officer(Assistant Network Engineer)</td>
+            <td>B+</td>
+            <td>01681242644</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Maliha.html" target="_blank">Maliha Amatullah</a>
+            </td>
+            <td>ICT-04</td>
+            <td>2022</td>
+
+            <td>Baker</td>
+            <td>O+</td>
+            <td>01736247636</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Fairooz.html" target="_blank"
+                >Fairooz Ahsan Nawar</a
+              >
+            </td>
+            <td>ICT-04</td>
+            <td>2022</td>
+
+            <td>Student</td>
+            <td>B+</td>
+            <td>01739113318</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Shahrin.html" target="_blank">Shahrin Shahpar</a>
+            </td>
+            <td>ICT-03</td>
+            <td>2021</td>
+
+            <td>Student</td>
+            <td>A+</td>
+            <td>14792494623</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Zannatul.html" target="_blank"
+                >Zannatul Ferdous Tuuny</a
+              >
+            </td>
+            <td>ICT-04</td>
+            <td>2022</td>
+
+            <td>IT Recuiter</td>
+            <td>AB+</td>
+            <td>01521443809</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Maleeha.html" target="_blank">Maleeha Sheikh</a>
+            </td>
+            <td>ICT-03</td>
+            <td>2021</td>
+
+            <td>Job Holder</td>
+            <td>O+</td>
+            <td>01914841641</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="proj.Ashraful.html" target="_blank"
+                >Ashraful Haider Chowdhury</a
+              >
+            </td>
+            <td>ICT-01</td>
+            <td>2019</td>
+
+            <td>Lecturer</td>
+            <td>O+</td>
+            <td>01521202217</td>
+          </tr> -->
+        </tbody>
+      </table>
+    <!--footer starts-->
+    <footer>
+      <div class="row">
+        <div class="col1">
+          <img src="img/logo.png" class="logo" />
+          <h1>
+            BANGLADESH UNIVERSITY OF PROFESSIONALS
+            <div class="underline"><span> </span></div>
+          </h1>
+        </div>
+        <div class="col2">
+          <h1>
+            USEFUL LINKS
+            <div class="underline"><span> </span></div>
+          </h1>
+          <a href="https://bup.edu.bd/">Bup Website</a><br />
+          <a href="https://www.facebook.com/bup29">Facebook Official Page</a
+          ><br />
+          <a href="https://www.facebook.com/missmictbup">Facebook MICT Page</a
+          ><br />
+          <a href="https://www.facebook.com/groups/811045162356977"
+            >Facebook ICT Group</a
+          >
+        </div>
+        <div class="col3">
+          <h1>
+            NEWSLETTER
+            <div class="underline"><span> </span></div>
+          </h1>
+          <a href="#">Magazines</a><br />
+          <a href="#">Year Book</a>
+          <h2>CONTACT US</h2>
+          <br />
+          <a href="about.us.html">About Website</a><br />
+          <a href="#">Privacy</a><br />
+          <a href="#">Terms of Use</a>
+        </div>
+        <div class="col4">
+          <h1>
+            GET INVOLVED
+            <div class="underline"><span> </span></div>
+          </h1>
+          <a href="#">Volunteering</a><br />
+          <a href="blood.html">Donation</a><br />
+          <h2>HAVE A QUESTION?</h2>
+          <p>
+            <i class="fa fa-map-marker" aria-hidden="true"></i> Mirpur
+            Cantonment, Road No2 Section#12, 1216
+          </p>
+          <p><i class="fa fa-phone" aria-hidden="true"></i>+8809666790790</p>
+          <p><i class="fa fa-fax" aria-hidden="true"></i> 88-02-8000443</p>
+          <p>
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>bupict@gmail.com
+          </p>
+        </div>
+      </div>
+      <hr />
+    </footer>
+
+    <script src="js/alumni.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
